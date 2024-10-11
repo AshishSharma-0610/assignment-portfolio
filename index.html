@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Sharma - Creative Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-code" style="font-size:36px"></i>
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Ashish Sharma</h1>
+                <p>Crafting Seamless Web Experiences, One Line of Code at a Time.</p>
+                <a href="#contact" class="cta-button">Let's Create Something Amazing</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="./images/Profile.png" alt="Ashish Sharma" class="profile-image">
+                    <div class="about-text">
+                        <p>Hello! I'm Ashish, a passionate full-stack developer skilled in building dynamic web
+                            applications with React, Node.js, and Express. I focus on creating intuitive user
+                            experiences, integrating APIs for real-time functionality, and crafting accessible
+                            interfaces using Tailwind CSS and Shadcn UI, all while emphasizing performance and
+                            scalability.</p>
+                        <p>My expertise includes:</p>
+                        <ul class="skills-list">
+                            <li><i class="fab fa-html5"></i> HTML5</li>
+                            <li><i class="fab fa-css3-alt"></i>CSS3</li>
+                            <li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+                            <li><i class="fab fa-react"></i> React.js</li>
+                            <li><i class="fab fa-node-js"></i> Node.js</li>
+                            <li><i class="fa-solid fa-database"></i></i> Database</li>
+                            <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>My Creative Journey</h2>
+                <div class="portfolio-grid">
+                    <div class="project-card">
+                        <img src="./images/Project2.png" alt="E-commerce Website">
+                        <div class="project-info">
+                            <h3>PixCode</h3>
+                            <p>PixCode, a "Code to Image" web application, enabling users to convert code
+                                snippets into shareable images.</p>
+                            <a href="https://pix-code.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">Explore Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/Project4.png" alt="Portfolio Template">
+                        <div class="project-info">
+                            <h3>Yoom</h3>
+                            <p>Yoom, a Zoom clone, featuring secure authentication and dynamic meeting
+                                controls.
+                            </p>
+                            <a href="https://zoom-clone-main-zeta.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">Explore Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/Project3.png" alt="Weather App">
+                        <div class="project-info">
+                            <h3>Gemini Clone</h3>
+                            <p>A Gemini exchange clone with real-time data from the Gemini API for a comprehensive
+                                trading simulation.</p>
+                            <a href="https://gemini-clone-two-rho.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">Explore Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/Project1.png" alt="Task Manager">
+                        <div class="project-info">
+                            <h3>Code Editor</h3>
+                            <p> An in-browser code editor, allowing users to code in various languages.</p>
+                            <a href="https://code-editor-lilac.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">Explore Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Let's Connect</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p><i class="fa-regular fa-copyright"></i> 2024 Ashish Sharma. Empowering Innovation Through Code and
+                Collaboration.
+            </p>
+        </div>
+    </footer>
+
+    <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌓</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
